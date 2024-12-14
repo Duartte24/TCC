@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        main {
+            padding: 20px;
+        }
+        .news {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .news-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            width: calc(33.333% - 20px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .news-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .news-item h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .news-item {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .news-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portal de Notícias</h1>
+        <p>As últimas notícias em um só lugar</p>
+    </header>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Tecnologia</a>
+        <a href="#">Esportes</a>
+        <a href="#">Entretenimento</a>
+        <a href="#">Política</a>
+    </nav>
+    <main>
+        <div class="news">
+            <div class="news-item">
+                <img src="https://via.placeholder.com/300" alt="Notícia 1">
+                <h3>Título da Notícia 1</h3>
+                <p>Descrição breve da notícia. Leia mais para se informar.</p>
+            </div>
+            <div class="news-item">
+                <img src="https://via.placeholder.com/300" alt="Notícia 2">
+                <h3>Título da Notícia 2</h3>
+                <p>Descrição breve da notícia. Leia mais para se informar.</p>
+            </div>
+            <div class="news-item">
+                <img src="https://via.placeholder.com/300" alt="Notícia 3">
+                <h3>Título da Notícia 3</h3>
+                <p>Descrição breve da notícia. Leia mais para se informar.</p>
+            </div>
+            <div class="news-item">
+                <img src="https://via.placeholder.com/300" alt="Notícia 4">
+                <h3>Título da Notícia 4</h3>
+                <p>Descrição breve da notícia. Leia mais para se informar.</p>
+            </div>
+            <div class="news-item">
+                <img src="https://via.placeholder.com/300" alt="Notícia 5">
+                <h3>Título da Notícia 5</h3>
+                <p>Descrição breve da notícia. Leia mais para se informar.</p>
+            </div>
+            <div class="news-item">
+                <img src="https://via.placeholder.com/300" alt="Notícia 6">
+                <h3>Título da Notícia 6</h3>
+                <p>Descrição breve da notícia. Leia mais para se informar.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Portal de Notícias. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
